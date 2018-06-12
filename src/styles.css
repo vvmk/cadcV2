@@ -16,3 +16,13 @@ body {
     background-color: gray;
     margin-top: 155px;
 }
+
+section {
+    width: 100%;
+}
+
+header { 
+    left: 0;
+    right: 0;
+    text-align: center;
+}
