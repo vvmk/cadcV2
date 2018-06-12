@@ -1,20 +1,32 @@
-<div class=container>
-  <section id="header">
-    <header>
-      <h1>{{title}}</h1>
-      <p>{{subtitle}}<p>
-    </header> 
-    <nav id="nav">
-      <ul>
-        <li><a routerLink="/portfolio">code</a></li>
-        <li><a routerLink="/resume">about</a></li>
-        <li><a routerLink="/contact">contact</a></li>
-      </ul> 
-    </nav>
-  </section>
-  <section id="content">
-    <router-outlet></router-outlet>
-  </section>
-  <section id="fotter">
-  </section>
+<div class="container cadc-container">
+  <div class="row">
+    <div class="col-md-4 col-lg-4 col-xl-4">
+      <section id="header">
+        <header>
+          <h1>{{title}}</h1>
+          <p>{{subtitle}}<p>
+        </header> 
+        <nav id="nav">
+          <ul>
+            <li><a routerLink="/portfolio">code</a></li>
+            <li><a routerLink="/resume">about</a></li>
+            <li><a routerLink="/contact">contact</a></li>
+          </ul> 
+        </nav>
+      </section>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 col-lg-4 col-xl-4">
+      <section id="content">
+        <router-outlet></router-outlet>
+      </section>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 col-lg-4 col-xl-4">
+      <section id="footer">
+      </section>
+    </div>
+  </div>
 </div>
