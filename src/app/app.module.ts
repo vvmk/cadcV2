@@ -4,6 +4,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { PortfolioModule } from './portfolio/portfolio.module';
 import { DetailsModule } from './details/details.module';
+import { BlogModule } from './blog/blog.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,7 +20,8 @@ import { HomePageComponent } from './home-page.component';
     NgbModule.forRoot(),
     AppRoutingModule,
     PortfolioModule,
-    DetailsModule
+    DetailsModule,
+    BlogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

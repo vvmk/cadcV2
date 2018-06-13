@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'complex aesthetic';
-  subtitle = 'thought-provoking subtitle';
+  subtitle = '[ thought-provoking subtitle ]';
 }

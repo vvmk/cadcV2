@@ -5,9 +5,11 @@ import { HomePageComponent } from './home-page.component';
 import { PortfolioPageComponent } from './portfolio/portfolio-page.component';
 import { AboutPageComponent } from './details/about-page.component';
 import { ContactPageComponent } from './details/contact-page.component';
+import { BlogContentsComponent } from './blog/blog-contents.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
+  { path: 'blog', component: BlogContentsComponent },
   { path: 'portfolio', component: PortfolioPageComponent },
   { path: 'about', component: AboutPageComponent },
   { path: 'contact', component: ContactPageComponent },
