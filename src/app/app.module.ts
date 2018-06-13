@@ -1,7 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { RouterModule } from '@angular/router';
+
+import { PortfolioModule } from './portfolio/portfolio.module';
+import { DetailsModule } from './details/details.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,7 +18,8 @@ import { HomePageComponent } from './home-page.component';
     BrowserModule,
     NgbModule.forRoot(),
     AppRoutingModule,
-    RouterModule.forRoot([])
+    PortfolioModule,
+    DetailsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
