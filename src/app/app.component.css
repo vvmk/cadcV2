@@ -1,0 +1,14 @@
+.bow {
+    background: #EAC435;
+    background-image: -moz-linear-gradient(left, #EAC435 0%, #EAC435 7%, #FB4D3D 22%, #FB4D3D 28%, #514DFF 47%, #514DFF 52%, #03CEA4 67%, #03CEA4 74%, #ef017c 91%, #ef017c 100%);
+    background-image: -webkit-gradient(left top, right top, color-stop(0%, #EAC435), color-stop(7%, #EAC435), color-stop(22%, #FB4D3D), color-stop(28%, #FB4D3D), color-stop(47%, #514DFF), color-stop(52%, #514DFF), color-stop(67%, #03CEA4), color-stop(74%, #03CEA4), color-stop(91%, #ef017c), color-stop(100%, #ef017c));
+    background-image: -webkit-linear-gradient(left, #EAC435 0%, #EAC435 7%, #FB4D3D 22%, #FB4D3D 28%, #514DFF 47%, #514DFF 52%, #03CEA4 67%, #03CEA4 74%, #ef017c 91%, #ef017c 100%);
+    background-image: -o-linear-gradient(left, #EAC435 0%, #EAC435 7%, #FB4D3D 22%, #FB4D3D 28%, #514DFF 47%, #514DFF 52%, #03CEA4 67%, #03CEA4 74%, #ef017c 91%, #ef017c 100%);
+    background-image: -ms-linear-gradient(left, #EAC435 0%, #EAC435 7%, #FB4D3D 22%, #FB4D3D 28%, #514DFF 47%, #514DFF 52%, #03CEA4 67%, #03CEA4 74%, #ef017c 91%, #ef017c 100%);
+    background-image: linear-gradient(to right, #EAC435 0%, #EAC435 7%, #FB4D3D 22%, #FB4D3D 28%, #514DFF 47%, #514DFF 52%, #03CEA4 67%, #03CEA4 74%, #ef017c 91%, #ef017c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EAC435', endColorstr='#ef017c', GradientType=1 );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EAC435', endColorstr='#ef017c', GradientType=1 );
+}
