@@ -1,29 +1,24 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-html {
+html,
+body {
     height: 100%;
     width: 100%;
 }
 
 body {
-    background-color: black;
+    background-color: white;
     background: url(./assets/images/shironoheya.jpg) no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
-    padding: 0px;
-    margin: 0px;
-    height: inherit;
-}
-
-a {
-    color: inherit;
 }
 
 .cadc-container {
     background-color: #222222;
-    margin-top: 155px;
     position: absolute;
+    margin-top: 155px;
 }
 
 section {
@@ -34,13 +29,17 @@ header {
     left: 0;
     right: 0;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 60px;
     padding-bottom: 40px;
+}
+
+footer {
+    background: transparent;
+    height: 50px;
 }
 
 .title a:hover {
     text-decoration: none;
-    color: ;
 }
 
 .title {
@@ -49,6 +48,10 @@ header {
 
 .subtitle {
 
+}
+
+.content {
+    padding: 20px;
 }
 
 .t-green,
