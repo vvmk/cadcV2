@@ -4,16 +4,24 @@ html,
 body {
     height: 100%;
     width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
     background-color: white;
     background: url(./assets/images/shironoheya.jpg) no-repeat center;
     background-size: cover;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+
+a {
+    color: inherit;
 }
 
 .cadc-container {
-    background-color: gray;
+    background-color: #222222;
     margin-top: 155px;
 }
 
@@ -25,4 +33,74 @@ header {
     left: 0;
     right: 0;
     text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.title a:hover {
+    text-decoration: none;
+    color: ;
+}
+
+.title {
+    padding-bottom: 30px;
+}
+
+.subtitle {
+
+}
+
+.t-green,
+.t-green:hover,
+.t-green:focus {
+    color: #03CEA4;
+}
+
+.t-orange,
+.t-orange:hover,
+.t-orange:focus {
+    color: #FB4D3D;
+}
+
+.t-blue,
+.t-blue:hover,
+.t-blue:focus {
+    color: #345995;
+}
+
+.t-pink,
+.t-pink:hover,
+.t-pink:focus {
+    color: #CA1551;
+}
+
+.t-saffron,
+.t-saffron:hover,
+.t-saffron:focus {
+    color: #EAC435;
+}
+
+.t-royal,
+.t-royal:hover,
+.t-royal:focus {
+    color: #514DFF;
+}
+
+.t-red,
+.t-red:hover,
+.t-red:focus
+{
+    color: #AD343E;
+}
+
+.t-yellow,
+.t-yellow:hover,
+.t-yellow:focus {
+    color: #F2AF29;
+}
+
+.t-purple,
+.t-purple:hover,
+.t-purple:focus {
+    color: #6B108C;
 }
