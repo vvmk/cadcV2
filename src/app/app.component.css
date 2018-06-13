@@ -12,3 +12,19 @@
     background-clip: text;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EAC435', endColorstr='#ef017c', GradientType=1 );
 }
+
+.bow-border {
+    border: 2px solid transparent;
+}
+
+.spooky-shadow {
+    -webkit-box-shadow: 141px 200px 300px -58px rgba(0,0,0,0.63);
+    -moz-box-shadow: 141px 200px 300px -58px rgba(0,0,0,0.63);
+    box-shadow: 141px 200px 300px -58px rgba(0,0,0,0.63);
+}
+
+.reasonable-shadow {
+    -webkit-box-shadow: 47px 52px 42px -9px rgba(0,0,0,0.81);
+    -moz-box-shadow: 47px 52px 42px -9px rgba(0,0,0,0.81);
+    box-shadow: 47px 52px 42px -9px rgba(0,0,0,0.81);
+}
