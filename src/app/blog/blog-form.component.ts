@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { BlogPost } from '../entity/BlogPost';
+import { BlogService } from '../services/blog.service';
 
 @Component({
   selector: 'cxa-blog-form',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlogFormComponent implements OnInit {
 
-  constructor() { }
+  constructor(private blogService: BlogService) { }
 
   ngOnInit() {
+
+  }
+
+  preview(): void {
+    console.log("TODO: trigger preview");
   }
 
 }
