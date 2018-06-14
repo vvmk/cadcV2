@@ -2,7 +2,7 @@
   <div [hidden]="!confirmed" class="preview">
     <cxa-blog-article [article]="blogPost"></cxa-blog-article>
   </div>
-  <form novalidate (submit)="submitPost()">
+  <form novalidate (ngSubmit)="submitPost()" #blogForm="ngForm">
     <div class="form-group">
       <input class="form-control"
              type="text"

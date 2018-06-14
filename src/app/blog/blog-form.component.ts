@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 import { BlogPost } from '../models/blog-post.model';
 import { BlogService } from '../services/blog.service';
 
@@ -27,7 +28,7 @@ export class BlogFormComponent implements OnInit {
     
   }
 
-  submitPost(form: NgForm): void {
-    console.log(form.value);
+  submitPost(): void {
+    console.log(this.blogPost);
   }
 }

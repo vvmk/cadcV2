@@ -52,6 +52,7 @@ footer {
 
 .content {
     padding: 20px;
+    with: 100%;
 }
 
 .t-green,
