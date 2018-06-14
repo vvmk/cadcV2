@@ -7,15 +7,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 exports.__esModule = true;
 var core_1 = require("@angular/core");
-var BlogService = /** @class */ (function () {
-    function BlogService(http) {
-        this.http = http;
+var BlogViewComponent = /** @class */ (function () {
+    function BlogViewComponent() {
     }
-    BlogService.prototype.postBlog = function (blog) {
+    BlogViewComponent.prototype.ngOnInit = function () {
     };
-    BlogService = __decorate([
-        core_1.Injectable()
-    ], BlogService);
-    return BlogService;
+    BlogViewComponent = __decorate([
+        core_1.Component({
+            selector: 'cxa-blog-view',
+            templateUrl: './blog-view.component.html',
+            styleUrls: ['./blog-view.component.css']
+        })
+    ], BlogViewComponent);
+    return BlogViewComponent;
 }());
-exports.BlogService = BlogService;
+exports.BlogViewComponent = BlogViewComponent;

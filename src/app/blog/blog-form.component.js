@@ -7,9 +7,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 exports.__esModule = true;
 var core_1 = require("@angular/core");
+var blog_post_model_1 = require("../models/blog-post.model");
 var BlogFormComponent = /** @class */ (function () {
     function BlogFormComponent(blogService) {
         this.blogService = blogService;
+        this.blog = new blog_post_model_1.BlogPost("Why is DesignOps a thing?", "[ body ]", "June 13, 2018 9", ["testing", "writing", "design", "ops", "programming"]);
     }
     BlogFormComponent.prototype.ngOnInit = function () {
     };

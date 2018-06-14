@@ -1,16 +1,31 @@
 <div class="text-white">
-  <form #form="ngForm" novalidate>
-
-    <div class="blog-fields form-group">
-      <input class="form-control" type="text" placeholder="title" name="postTitle" ngModel required />
-      <textarea class="form-control" name="postBody"  ngModel required></textarea>
+  <div [hidden]="!confirmed" class="preview">
+    <cxa-blog-article [article]="blogPost"></cxa-blog-article>
+  </div>
+  <form novalidate (submit)="submitPost()">
+    <div class="form-group">
+      <input class="form-control"
+             type="text"
+             placeholder="title"
+             name="blogTitle"
+             required
+             [(ngModel)]="blogPost.title" />
     </div>
-
-    <div class="blog-controls">
-      <button class="form-control" (click)="preview()">Preview</button>
-      <button class="form-control" type="submit">Save</button>
+    <div class="form-group">
+      <input class="form-control"
+             type="text"
+             placeholder="tags"
+             name="blogTags"
+             required
+             [(ngModel)]="blogPost.tags" />
     </div>
-
+    <div class="form-group">
+      <textarea class="form-control"  
+                name="blogBody"
+                required
+                [(ngModel)]="blogPost.body"></textarea>
+    </div>
+    <button class="btn btn-warn" type="button" (click)="preview()">Preview</button>
+    <button [disabled]="!confirmed" class="btn btn-success" type="submit">Save</button>
   </form>
-
 </div>
