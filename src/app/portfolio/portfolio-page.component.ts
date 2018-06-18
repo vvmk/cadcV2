@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio-page.component.css']
 })
 export class PortfolioPageComponent implements OnInit {
+  portfolioItems
 
   constructor() { }
 
